@@ -24,6 +24,10 @@ body {
   color: #7e9bbd;
 }
 
+.price__currency {
+  font-size: 16px;
+}
+
 .btn {
   height: 46px;
   padding: 13px 20px;
@@ -144,6 +148,8 @@ a.product__link {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: 0 10px 40px 0 rgba(126, 155, 189, 0.3);
+  background: #fff;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
